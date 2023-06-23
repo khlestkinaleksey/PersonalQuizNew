@@ -191,17 +191,17 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="b4x-gZ-X5I">
                                         <rect key="frame" x="-2" y="0.0" width="339" height="31"/>
                                     </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-99-dTY">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-99-dTY">
                                         <rect key="frame" x="0.0" y="30" width="335" height="24"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnE-d5-bga">
-                                                <rect key="frame" x="0.0" y="0.0" width="279" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnE-d5-bga">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.66666666666666" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAF-KM-mtX">
-                                                <rect key="frame" x="287" y="0.0" width="48" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAF-KM-mtX">
+                                                <rect key="frame" x="171.66666666666663" y="0.0" width="163.33333333333337" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -231,12 +231,6 @@
                             <constraint firstItem="zXo-S0-4To" firstAttribute="centerY" secondItem="rQb-kk-70U" secondAttribute="centerY" constant="-28" id="jXy-d9-vOL"/>
                             <constraint firstItem="8h1-4Q-9oj" firstAttribute="leading" secondItem="kfj-ef-3Hf" secondAttribute="leading" constant="20" id="rO6-59-PQ4"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="8h1-4Q-9oj"/>
-                                <exclude reference="zXo-S0-4To"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="MCc-GI-FeZ">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="8wD-WE-hTx"/>
